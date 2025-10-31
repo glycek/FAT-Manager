@@ -38,7 +38,7 @@ jobs:
         if: runner.os == 'Windows'
         uses: jurplel/install-qt-action@v4
         with:
-          version: '6.x'
+          version: '6.9.3'
           arch: 'mingw_64'
           cache: 'true'
 
